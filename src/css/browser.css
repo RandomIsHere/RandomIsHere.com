@@ -1,0 +1,15 @@
+embed {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.ignorepadding {
+    padding: 0% !important;
+    height: 100%;
+}
+
+#appBrowserMount {
+    width: 100%;
+    height: 100%;
+}

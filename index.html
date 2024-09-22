@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Random's Basement</title>
   <link rel="stylesheet" href="src/css/main.css">
+  <link rel="stylesheet" href="src/css/browser.css">
 </head>
 <body>
 <div id="header">
@@ -24,6 +25,12 @@
   </div>
   <div class="dock-button" id="socials_button">
     <img src="src/img/info.png" alt="SCCIAL"/>
+    <div class="tooltip">
+      <p>My Socials</p>
+    </div>
+  </div>
+  <div class="dock-button" id="webbrowser_button">
+    <img src="src/img/info.png" alt="WEB"/>
     <div class="tooltip">
       <p>My Socials</p>
     </div>
@@ -85,6 +92,23 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="constructorWindow" id="webbrowser">
+    <div class="windowHeader">
+      <div class="windowButtons">
+        <button class="close">✖</button>
+        <button class="minimise">–</button>
+        <button class="maximise">□</button>
+      </div>
+      <div class="windowText">
+        <p>Web Browser</p>
+      </div>
+    </div>
+    <div class="windowContent ignorepadding">
+      <div id="appBrowserMount">
+        <iframe src="https://example.com" style="width: 100%; height: 100%; border: none;"></iframe>
+      </div>
+    </div>    
   </div>
 </div>
 <script src="src/js/nwmDE.js"></script>
